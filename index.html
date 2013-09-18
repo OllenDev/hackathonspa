@@ -3,10 +3,61 @@
    	<title>Hackathon</title>
    	<meta name="author" content="Chris Ollenburg">
    	<meta name="description" content="A SPA about the November Cardinal Hackathon">
+   	<style type="text/css">
+   		@font-face {
+    		font-family: 'sf_distant_galaxy_outlineRg';
+    		src: url('fonts/sf_distant_galaxy_outline-webfont.eot');
+    		src: url('fonts/sf_distant_galaxy_outline-webfont.eot?#iefix') format('embedded-opentype'),
+         	url('fonts/sf_distant_galaxy_outline-webfont.woff') format('woff'),
+         	url('fonts/sf_distant_galaxy_outline-webfont.ttf') format('truetype'),
+         	url('fonts/sf_distant_galaxy_outline-webfont.svg#sf_distant_galaxy_outlineRg') format('svg');
+    		font-weight: normal;
+    		font-style: normal;
+		}
+   		body 
+   		{
+   			background-color:#000000;
+   		}
+		h1 
+		{
+			font-family: "sf_distant_galaxy_outlineRg";
+			color: #EBC65D;
+			text-align: center;
+			font-size: 50px;
+		}
+		.contentBox
+		{
+			margin: 0px auto;
+			width: 95%;
+		}
+		.leftbar
+		{
+			background-color: #ffffff;
+			width: 50px;
+			height: 400px;
+			float: left;
+		}
+		.rightbar
+		{
+			background-color: #ffffff;
+			width: 50px;
+			height: 400px;
+			float: right;
+		}
+		.center
+		{
+			background-color: green;
+			height: 400px;
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+   	</style>
 </head>
-<body bgcolor="#000000">
-	<div align="center" padding="10">
-		<img src="./assets/hackathon2.jpg" alt="hackathon" align="center" width="75%"/>
+<body>
+	<h1>HACKATHON</h1>
+	<div id="contentBox">
+		<div class="leftbar"></div>
+		<div class="center"></div>
+		<div class="rightbar"></div>
 	</div>
-	<div>This area will contain the darth vader style console</div>
 </body>
